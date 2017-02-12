@@ -110,6 +110,3 @@ class BannerTraceApp {
  */
 $app = new BannerTraceApp(new MySqlVisitorStore());
 $app->run();
-
-//header('Content-Type: image/png');
-//readfile('banner.png');
